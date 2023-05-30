@@ -3,7 +3,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container_about">
       <p>
         Üdvözöljük a Nails by Vera, a szentendrei körömszalonban, amely büszke
         arra, hogy a város legjobb manikűr és pedikűr szolgáltatásait kínálja!
