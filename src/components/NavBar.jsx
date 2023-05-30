@@ -3,8 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import "./navbar.css";
 
 const NavBar = () => {
-  const location = useLocation();
-
   return (
     <nav className="navBar">
       <NavLink to="/" exact>
