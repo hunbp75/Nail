@@ -6,17 +6,48 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Image1 from "../Pictures/Screenshot_20230529-023821_Photo Editor Pro - Polish.jpg";
 import Image2 from "../Pictures/Screenshot_20230529-024802_Photo Editor Pro - Polish.jpg";
 import Manicure from "../Product/Manicure";
+import Pedicure from "../Product/Pedicure";
+import Nails from "../Product/Nails";
+import Kids from "../Product/Kids";
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isManicureModalOpen, setManicureModalOpen] = useState(false);
+  const [isPedicureModalOpen, setPedicureModalOpen] = useState(false);
+  const [isNailsModalOpen, setNailsModalOpen] = useState(false);
+  const [isKidsModalOpen, setKidsModalOpen] = useState(false);
 
-  const openModal = () => {
-    setIsOpen(true);
+  const openManicureModal = () => {
+    setManicureModalOpen(true);
   };
 
-  const closeModal = () => {
-    setIsOpen(false);
+  const closeManicureModal = () => {
+    setManicureModalOpen(false);
   };
+
+  const openPedicureModal = () => {
+    setPedicureModalOpen(true);
+  };
+
+  const closePedicureModal = () => {
+    setPedicureModalOpen(false);
+  };
+
+  const openNailsModal = () => {
+    setNailsModalOpen(true);
+  };
+
+  const closeNailsModal = () => {
+    setNailsModalOpen(false);
+  };
+
+  const openKidsModal = () => {
+    setKidsModalOpen(true);
+  };
+
+  const closeKidsModal = () => {
+    setKidsModalOpen(false);
+  };
+
   return (
     <div className="main-container">
       <div className="container">
@@ -93,8 +124,8 @@ const Home = () => {
       </div>
 
       <div className="container4">
-        <div className="section" onClick={openModal}>
-          <h4>Manikür</h4>
+        <div className="section" onClick={openManicureModal}>
+          <h4>Manikűr</h4>
           <p>
             Klasszikus manikűr, Japán manikűr, Gépi manikűr. A manikűr
             szolgáltatás az egyes ügyfelek preferenciáinak és stílusának
@@ -102,15 +133,16 @@ const Home = () => {
           </p>
         </div>
         <Modal
-          isOpen={isOpen}
-          onRequestClose={closeModal}
+          isOpen={isManicureModalOpen}
+          onRequestClose={closeManicureModal}
           contentLabel="Manikür Modal"
           className="half-modal-container"
         >
           <Manicure />
-          <button onClick={closeModal}>Bezárás</button>
+          <button onClick={closeManicureModal}>Bezárás</button>
         </Modal>
-        <div className="section">
+
+        <div className="section" onClick={openPedicureModal}>
           <h4>Pedikűr</h4>
           <p>
             SPA pedikűr. Anti-Age bőrfiatalító pedikűr. Láb Köröm Erősítés
@@ -119,7 +151,17 @@ const Home = () => {
             preferenciáinak és stílusának megfelelően testre szabható.
           </p>
         </div>
-        <div className="section">
+        <Modal
+          isOpen={isPedicureModalOpen}
+          onRequestClose={closePedicureModal}
+          contentLabel="Manikür Modal"
+          className="half-modal-container"
+        >
+          <Pedicure />
+          <button onClick={closePedicureModal}>Bezárás</button>
+        </Modal>
+
+        <div className="section" onClick={openNailsModal}>
           <h4>Műköröm szolgáltatások</h4>
           <p>
             Porcelán műköröm , Zselés műköröm, Smárt polygel, Gél
@@ -127,7 +169,16 @@ const Home = () => {
             preferenciáinak és stílusának megfelelően testre szabható.
           </p>
         </div>
-        <div className="section">
+        <Modal
+          isOpen={isNailsModalOpen}
+          onRequestClose={closeNailsModal}
+          contentLabel="Manikür Modal"
+          className="half-modal-container"
+        >
+          <Nails />
+          <button onClick={closeNailsModal}>Bezárás</button>
+        </Modal>
+        <div className="section" onClick={openKidsModal}>
           <h4>Gyermek</h4>
           <p>
             Kid Fresh pedikűr/fürdő. Kid fresh Manikűr / Spa Hands / Feet.
@@ -136,6 +187,15 @@ const Home = () => {
             felejhetetlen élményt szerezni számára, akkor nálunk a helyük.
           </p>
         </div>
+        <Modal
+          isOpen={isKidsModalOpen}
+          onRequestClose={closeKidsModal}
+          contentLabel="Manikür Modal"
+          className="half-modal-container"
+        >
+          <Kids />
+          <button onClick={closeKidsModal}>Bezárás</button>
+        </Modal>
       </div>
     </div>
   );

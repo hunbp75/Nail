@@ -2,15 +2,13 @@ const Pedicure = () => {
   return (
     <div>
       <h1>Pedikűr Szolgáltatások</h1>
-      <div className="pedicureMain">
-        <p>
-          A nyári tisztaság, a téli pompa megtartásában a pedikűr is
-          létfontosságú szerepet játszik. Bőrkeményedéseinek eltüntetését bízza
-          szakemberre. Fellegekben fog járni utána. Enyhébb mértékben benőtt
-          körmök szakszerű kezelését és kivágását elvégezzük, ezzel
-          megszabadítjuk a benövéssel járó kellemetlenségektől.
-        </p>
-      </div>
+      <p>
+        A nyári tisztaság, a téli pompa megtartásában a pedikűr is létfontosságú
+        szerepet játszik. Bőrkeményedéseinek eltüntetését bízza szakemberre.
+        Fellegekben fog járni utána. Enyhébb mértékben benőtt körmök szakszerű
+        kezelését és kivágását elvégezzük, ezzel megszabadítjuk a benövéssel
+        járó kellemetlenségektől.
+      </p>
       <br></br>
       <div className="pedicure">
         <h3>

@@ -2,14 +2,12 @@ const Nails = () => {
   return (
     <div>
       <h1>Műköröm Szolgáltatások</h1>
-      <div className="pedicureMain">
-        <p>
-          Tartós, trendhez hű és személyiségéhez illő műkörmökkel és körmei
-          díszítésével, ápolásával járulok hozzá kényelméhez. Négy, vagy akár 7
-          hétig tartó, strapabíró körmöket építek, melyeket ezután igény szerint
-          töltéskor akár más dizájnra vagy fazonra változtathatunk.
-        </p>
-      </div>
+      <p>
+        Tartós, trendhez hű és személyiségéhez illő műkörmökkel és körmei
+        díszítésével, ápolásával járulok hozzá kényelméhez. Négy, vagy akár 7
+        hétig tartó, strapabíró körmöket építek, melyeket ezután igény szerint
+        töltéskor akár más dizájnra vagy fazonra változtathatunk.
+      </p>
       <br></br>
       <br></br>
       <div className="pedicure">
