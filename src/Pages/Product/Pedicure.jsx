@@ -2,13 +2,15 @@ const Pedicure = () => {
   return (
     <div>
       <h1>Pedikűr Szolgáltatások</h1>
-      <p>
-        A nyári tisztaság, a téli pompa megtartásában a pedikűr is létfontosságú
-        szerepet játszik. Bőrkeményedéseinek eltüntetését bízza szakemberre.
-        Fellegekben fog járni utána. Enyhébb mértékben benőtt körmök szakszerű
-        kezelését és kivágását elvégezzük, ezzel megszabadítjuk a benövéssel
-        járó kellemetlenségektől.
-      </p>
+      <div className="pedicureMain">
+        <p>
+          A nyári tisztaság, a téli pompa megtartásában a pedikűr is
+          létfontosságú szerepet játszik. Bőrkeményedéseinek eltüntetését bízza
+          szakemberre. Fellegekben fog járni utána. Enyhébb mértékben benőtt
+          körmök szakszerű kezelését és kivágását elvégezzük, ezzel
+          megszabadítjuk a benövéssel járó kellemetlenségektől.
+        </p>
+      </div>
       <br></br>
       <div className="pedicure">
         <h3>
@@ -41,7 +43,7 @@ const Pedicure = () => {
         <span>Ár: 25000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb.1 óra</span>
-        <br></br> <br></br>
+        <br></br>
         <span>
           <u>Kezelés menete:</u>
         </span>
@@ -63,7 +65,7 @@ const Pedicure = () => {
         </h3>
         <span>Ár: 15000 Ft</span>
         <br></br>
-        <span>Kezelési idő: kb. 60 perc</span> <br></br> <br></br>
+        <span>Kezelési idő: kb. 60 perc</span> <br></br>
         <span>
           <u>Kezelés menete:</u>
         </span>
@@ -87,7 +89,6 @@ const Pedicure = () => {
         <span>Ár: 17000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb. 90 perc</span>
-        <br></br>
         <br></br>
         <span>
           <u>Kezelés menete:</u>
@@ -176,7 +177,7 @@ const Pedicure = () => {
         <h3>
           <u>COMBI PED SPANGE</u>
         </h3>
-        <br></br>
+
         <p>
           A COMB Iped spange alkalmazható fájó, deformálódott, benőtt és
           csőkörmök esetén. Lehetővé teszi a drótos körömszabályozó
@@ -205,7 +206,7 @@ const Pedicure = () => {
           Ez a módszer minden korosztály számára alkalmazható, gyermeknél és
           cukorbetegeknél egyaránt.
         </p>
-        <span>17 000 Ft</span>
+        <span>Ár: 17 000 Ft</span>
         <br></br>
         <span>Felhelyezési idő 1 óra, pedikűrrel 2 óra</span>
       </div>
