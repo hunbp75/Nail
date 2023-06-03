@@ -55,7 +55,7 @@ const Home = () => {
           <img src={Image1} alt="Kép leírása" />
         </div>
         <div className="text1">
-          <h1>Nails Vera</h1>
+          <h1>Nails by Vera</h1>
           <p>
             A szenvedély, a professzionalizmus, a minőség, a melegség azok a
             szavak, amelyek a legjobban kifejezik a Nails by Vera szalon

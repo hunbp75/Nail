@@ -1,0 +1,71 @@
+/* gallery.css */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 200px;
+  height: 220px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.modal img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.close,
+.prev,
+.next {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20%;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.close:hover,
+.prev:hover,
+.next:hover {
+  background-color: white;
+  color: black;
+}
+
+.prev,
+.next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: -50px;
+}
+
+.next {
+  right: -50px;
+}

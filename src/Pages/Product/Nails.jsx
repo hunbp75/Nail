@@ -14,7 +14,7 @@ const Nails = () => {
         <h3>
           <u>Szolgáltatások</u>
         </h3>
-        <span>Gél lakozás nélkül - Ft</span>
+        <span>Gél lakozás nélkül - 9500 Ft</span>
         <br></br>
         <span>Zselés műköröm töltés - 15000 Ft</span>
         <br></br>
