@@ -80,6 +80,43 @@ const Home = () => {
           </p>
         </div>
       </div>
+
+      <div className="container4">
+        <div className="section">
+          <h4>Manikür</h4>
+          <p>
+            Klasszikus manikűr, Japán manikűr, Gépi manikűr. A manikűr
+            szolgáltatás az egyes ügyfelek preferenciáinak és stílusának
+            megfelelően testre Szabható.
+          </p>
+        </div>
+        <div className="section">
+          <h4>Pedikűr</h4>
+          <p>
+            SPA pedikűr. Anti-Age bőrfiatalító pedikűr. Láb Köröm Erősítés
+            zselével Köröm protézis Benőtt lábköröm fájdalom és operáció mentes
+            kezelése. 3TO Spange. A pedikűr szolgáltatás az egyes ügyfelek
+            preferenciáinak és stílusának megfelelően testre szabható.
+          </p>
+        </div>
+        <div className="section">
+          <h4>Műköröm szolgáltatások</h4>
+          <p>
+            Porcelán műköröm , Zselés műköröm, Smárt polygel, Gél
+            lakkszolgáltatások . A szolgáltatás az egyes ügyfelek
+            preferenciáinak és stílusának megfelelően testre szabható.
+          </p>
+        </div>
+        <div className="section">
+          <h4>Gyermek</h4>
+          <p>
+            Kid Fresh pedikűr/fürdő. Kid fresh Manikűr / Spa Hands / Feet.
+            Kombinált gyerek manikűr + pedikűr. Ha szeretné gyermekeit egy
+            kellemes élménnyel kényeztetni, együtt kikapcsolódni, és egy
+            felejhetetlen élményt szerezni számára, akkor nálunk a helyük.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
