@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "react-modal";
 import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Image1 from "../Pictures/Screenshot_20230529-023821_Photo Editor Pro - Polish.jpg";
 import Image2 from "../Pictures/Screenshot_20230529-024802_Photo Editor Pro - Polish.jpg";
+import Manicure from "../Product/Manicure";
 
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="main-container">
       <div className="container">
@@ -82,7 +93,7 @@ const Home = () => {
       </div>
 
       <div className="container4">
-        <div className="section">
+        <div className="section" onClick={openModal}>
           <h4>Manikür</h4>
           <p>
             Klasszikus manikűr, Japán manikűr, Gépi manikűr. A manikűr
@@ -90,6 +101,15 @@ const Home = () => {
             megfelelően testre Szabható.
           </p>
         </div>
+        <Modal
+          isOpen={isOpen}
+          onRequestClose={closeModal}
+          contentLabel="Manikür Modal"
+          className="half-modal-container"
+        >
+          <Manicure />
+          <button onClick={closeModal}>Bezárás</button>
+        </Modal>
         <div className="section">
           <h4>Pedikűr</h4>
           <p>

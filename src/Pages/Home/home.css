@@ -195,13 +195,6 @@
 }
 
 /* Section 4 */
-/*
-.container4 {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
-} */
 
 .container4 {
   margin-top: 4rem;
@@ -237,4 +230,46 @@
   .container4 {
     grid-template-columns: 1fr;
   }
+}
+
+/* Modal */
+
+.half-modal-container {
+  width: 800px;
+  height: 50vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: auto; /* Engedélyezd az elcsúsztatható tartalmat, ha túllépi a méretet */
+  text-align: center;
+}
+
+.half-modal-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.half-modal-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.half-modal-container button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.half-modal-container button:hover {
+  background-color: #555;
 }
