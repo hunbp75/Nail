@@ -3,6 +3,7 @@ import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Image1 from "../Pictures/Screenshot_20230529-023821_Photo Editor Pro - Polish.jpg";
+import Image2 from "../Pictures/Screenshot_20230529-024802_Photo Editor Pro - Polish.jpg";
 
 const Home = () => {
   return (
@@ -58,6 +59,24 @@ const Home = () => {
             legyen az arcán. Az időpont egyeztetés gyors és egyszerű, ezért ne
             habozzon kapcsolatba lépni velünk, hogy időpontot foglaljunk még
             most!
+          </p>
+        </div>
+      </div>
+
+      <div className="container3">
+        <div className="image3">
+          <img src={Image2} alt="Kép leírása" />
+        </div>
+        <div className="text3">
+          <h1>Felejthetetlen köröm élmény</h1>
+          <p>
+            Az ügyfélszolgálat az első számú prioritásunk. Szeretnénk, ha minden
+            ügyfelünk tökéletes manikűrrel vagy pedikűrrel, mosollyal az arcán
+            távozna szalonunkból. Barátságos és jól képzett köröm technikus
+            csapatunkat gondosan választották ki és képezték ki, hogy személyre
+            szabott és professzionális élményt nyújtsanak az elejétől a végéig.
+            Így Szentendrén elérhető kezeléseinknél a legmagasabb minőségi
+            elvárásokra számíthatnak ügyfeleink
           </p>
         </div>
       </div>
