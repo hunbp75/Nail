@@ -8,6 +8,7 @@ const Manicure = () => {
         lakkozással vagy tartós gél lakkozással tehetjük teljessé a látványt.
         Bőrünket paraffinos kézápolással selymessé varázsolhatjuk.
       </p>
+      <br></br>
       <div className="pedicure">
         <h3>
           {" "}
@@ -26,6 +27,7 @@ const Manicure = () => {
         </p>
       </div>
       <br></br>
+      <br></br>
       <div className="pedicure">
         <h3>
           <u>JAPÁN MANIKŰR</u>
@@ -40,6 +42,7 @@ const Manicure = () => {
           visszaadja annak természetes fényét.
         </p>
       </div>
+      <br></br>
       <br></br>
       <div className="pedicure">
         <h3>
@@ -74,6 +77,7 @@ const Manicure = () => {
         </p>
       </div>
       <br></br>
+      <br></br>
       <div className="pedicure">
         <h3>
           <u>GÉL LAKK - PRÉMIUM</u>
@@ -93,6 +97,7 @@ const Manicure = () => {
           extrémebb, a szolgáltatás időtartományán belül.
         </p>
       </div>
+      <br></br>
       <br></br>
       <div className="pedicure">
         <h3>

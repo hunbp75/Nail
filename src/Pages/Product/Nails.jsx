@@ -9,12 +9,11 @@ const Nails = () => {
         töltéskor akár más dizájnra vagy fazonra változtathatunk.
       </p>
       <br></br>
-      <br></br>
       <div className="pedicure">
         <h3>
           <u>Szolgáltatások</u>
         </h3>
-        <span>Gél lakozás nélkül - 9500 Ft</span>
+        <span>Gél lakkozás nélkül - 9500 Ft</span>
         <br></br>
         <span>Zselés műköröm töltés - 15000 Ft</span>
         <br></br>

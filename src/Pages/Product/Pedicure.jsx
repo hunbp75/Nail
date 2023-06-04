@@ -101,6 +101,7 @@ const Pedicure = () => {
         <li>Formázás, fényzselé</li>
       </div>
       <br></br>
+      <br></br>
       <div className="pedicure">
         <h3>
           <u>KÖRÖM PROTÉZIS / darab</u>

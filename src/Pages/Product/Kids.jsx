@@ -3,7 +3,6 @@ const Kids = () => {
     <div>
       <h1>Gyermek Szolgáltatások</h1>
       <br></br>
-      <br></br>
       <div className="pedicure">
         <h3>
           <u>Szolgáltatások</u>
