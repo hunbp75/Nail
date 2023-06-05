@@ -6,6 +6,7 @@ import About from "./Pages/About/About";
 import Product from "./Pages/Product/Product";
 import Gallery from "./Pages/Gallery/Gallery";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import Booking from "./Pages/Booking/Booking";
 
 const Layout = () => (
   <div>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/Product" element={<Product />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/Booking" element={<Booking />} />
         </Route>
       </Routes>
     </BrowserRouter>
