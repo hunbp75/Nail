@@ -1,68 +1,84 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./booking.css";
 
-const Booking = () => {
+const Booking = ({ onClose }) => {
   const [name, setName] = useState("");
-  const [date, setDate] = useState("");
-  const [time, setTime] = useState("");
+  const [Phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleNameChange = (e) => {
-    setName(e.target.value);
+  const handleNameChange = (event) => {
+    setName(event.target.value);
   };
 
-  const handleDateChange = (e) => {
-    setDate(e.target.value);
+  const handleEmailChange = (event) => {
+    setPhone(event.target.value);
   };
 
-  const handleTimeChange = (e) => {
-    setTime(e.target.value);
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Itt hívd meg a backend szolgáltatást az e-mail küldéséhez
-    // Pl. axios.post('/send-email', { name, date, time })
-    console.log("Név:", name);
-    console.log("Dátum:", date);
-    console.log("Időpont:", time);
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    const serviceID = "service_ekznuj3";
+    const templateID = "template_20v9c8g";
+    const userID = "LSjKBSH-oftzuVitp";
+
+    const templateParams = {
+      from_name: name,
+      Phone: Phone,
+      message: message,
+    };
+
+    emailjs
+      .send(serviceID, templateID, templateParams, userID)
+      .then((response) => {
+        console.log(
+          "Email sikeresen elküldve!",
+          response.status,
+          response.text
+        );
+        onClose(); // Ablak bezárása
+      })
+      .catch((error) => {
+        console.error("Hiba történt az e-mail küldése során:", error);
+      });
+
+    setName("");
+    setPhone("");
+    setMessage("");
   };
 
   return (
-    <div className="booking-form">
-      <h1>Időpont Foglalás</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="name">Név:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={handleNameChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="date">Dátum:</label>
-          <input
-            type="date"
-            id="date"
-            value={date}
-            onChange={handleDateChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="time">Időpont:</label>
-          <input
-            type="time"
-            id="time"
-            value={time}
-            onChange={handleTimeChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <button type="submit">Befejezés</button>
+    <div className="booking-popup">
+      <button className="closeButton" onClick={onClose}>
+        ×
+      </button>
+      <form onSubmit={handleFormSubmit}>
+        <p>
+          Kérjük töltse ki az adataival és munkatársunk hamarosan felkeresi
+          egyeztetés céljából telefonon
+        </p>
+        <label>
+          Az Ön keresztneve:
+          <input type="text" value={name} onChange={handleNameChange} />
+        </label>
+        <br />
+        <label>
+          Telefonszáma:
+          <input type="text" value={Phone} onChange={handleEmailChange} />
+        </label>
+        <br />
+        <label>
+          Kérjük adja meg az időpontot, amikor szeretné igénybe venni a
+          szolgáltatást
+          <textarea value={message} onChange={handleMessageChange} />
+        </label>
+        <br />
+        <div className="booking_button">
+          <button type="submit">Foglalás küldése</button>
         </div>
       </form>
     </div>

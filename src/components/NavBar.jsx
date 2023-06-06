@@ -33,11 +33,8 @@ const NavBar = () => {
       {isPopupOpen && (
         <div className="popupOverlay">
           <div className="popupContent">
-            <button className="closeButton" onClick={closePopup}>
-              ×
-            </button>
             <div className="bookingContainer">
-              <Booking />
+              <Booking onClose={closePopup} />
             </div>
           </div>
         </div>
