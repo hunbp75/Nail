@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./booking.css";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const Booking = ({ onClose }) => {
   const [name, setName] = useState("");
   const [Phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [startDate, setStartDate] = useState(new Date());
+  const onChange = (dates) => {
+    const [start] = dates;
+    setStartDate(start);
+  };
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -53,8 +60,8 @@ const Booking = ({ onClose }) => {
 
   return (
     <div className="booking-popup">
-      <button className="closeButton" onClick={onClose}>
-        ×
+      <button className="xcloseButton" id="xButton" onClick={onClose}>
+        X<script src=""></script>
       </button>
       <form onSubmit={handleFormSubmit}>
         <p>
@@ -77,8 +84,24 @@ const Booking = ({ onClose }) => {
           <textarea value={message} onChange={handleMessageChange} />
         </label>
         <br />
-        <div className="booking_button">
-          <button type="submit">Foglalás küldése</button>
+        <label>
+          Dátum:
+          <br />
+          <DatePicker
+            selected={startDate}
+            onChange={onChange}
+            startDate={startDate}
+            selectsRange
+            inline
+            showTimeSelect
+            dateFormat="Pp"
+          />
+        </label>
+
+        <div className="booking_button" id="submitButton">
+          <button type="submit" id="submit">
+            Foglalás küldése
+          </button>
         </div>
       </form>
     </div>

@@ -21,20 +21,43 @@
   margin-bottom: 10px;
 }
 
-.booking-popup button {
+.popupOverlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Háttérszín beállítása */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Magasabb z-index érték */
+}
+
+.popupContent {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking_button {
+  display: flex;
+  justify-content: center;
+}
+
+#xButton {
+  background-color: red;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+#submitButton {
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.booking-popup button:hover {
-  background-color: #45a049;
-}
-
-.booking_button {
-  display: flex;
-  justify-content: center;
 }
