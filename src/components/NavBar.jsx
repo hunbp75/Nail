@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Booking from "../Pages/Booking/Booking";
 import "./navbar.css";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -29,6 +31,22 @@ const NavBar = () => {
         <button className="navButton" onClick={openPopup}>
           Időpont foglalás
         </button>
+      </div>
+      <div className="socialIcons">
+        <a
+          href="https://www.facebook.com/your-facebook-page"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a
+          href="https://www.instagram.com/your-instagram-page"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
       </div>
       {isPopupOpen && (
         <div className="popupOverlay">

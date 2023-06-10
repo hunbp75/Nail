@@ -26,6 +26,7 @@
 .booking {
   background-color: #333;
   margin-left: 3rem;
+  display: flex;
 }
 
 .popupOverlay {
@@ -49,4 +50,21 @@
 .bookingContainer {
   display: flex;
   justify-content: center;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+  gap: 1rem;
+  font-size: 1.7rem;
+}
+
+.socialIcons a {
+  margin-right: 10px;
+  color: #f9f7f7; /* Ikonok színe */
+}
+
+.socialIcons a:last-child {
+  margin-right: 0;
 }
