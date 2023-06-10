@@ -1,6 +1,7 @@
 .navBar {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #333;
   padding: 10px;
 }
@@ -12,6 +13,8 @@
   font-size: 16px;
   transition: color 0.3s ease;
   background-color: #333;
+  height: 50px;
+  border-radius: 10px;
 }
 
 .navButton.active {
@@ -62,9 +65,19 @@
 
 .socialIcons a {
   margin-right: 10px;
-  color: #f9f7f7; /* Ikonok színe */
+  color: #f9f7f7;
 }
 
 .socialIcons a:last-child {
   margin-right: 0;
+}
+
+#logo_red {
+  height: 40px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6rem;
 }

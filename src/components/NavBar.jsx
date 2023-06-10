@@ -4,6 +4,8 @@ import Booking from "../Pages/Booking/Booking";
 import "./navbar.css";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo_1 from "../Pages/ContactUs/logo/logo_1.jpg";
+import logo_2 from "../Pages/ContactUs/logo/logo_2.jpg";
 
 const NavBar = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -18,6 +20,10 @@ const NavBar = () => {
 
   return (
     <nav className="navBar">
+      <div className="logoContainer">
+        <img id="logo_red" src={logo_2} alt=""></img>
+        <img id="logo_red" src={logo_1} alt=""></img>
+      </div>
       <div className="navButtonContainer">
         <NavLink to="/" exact>
           Kezdőlap

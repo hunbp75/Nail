@@ -73,7 +73,7 @@
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 10s linear infinite;
+  animation: marquee 30s linear infinite;
   height: 4rem;
   margin-top: 3rem;
 }
@@ -349,4 +349,19 @@
 
 h1 {
   text-align: center;
+}
+
+#logo_home {
+  height: 60px;
+  width: 200px;
+}
+
+.logoContainer_home {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+}
+
+#facebook {
+  color: blue;
 }

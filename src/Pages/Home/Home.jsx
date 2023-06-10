@@ -9,6 +9,8 @@ import Manicure from "../Product/Manicure";
 import Pedicure from "../Product/Pedicure";
 import Nails from "../Product/Nails";
 import Kids from "../Product/Kids";
+import logo_1 from "../ContactUs/logo/logo_1.jpg";
+import logo_2 from "../ContactUs/logo/logo_2.jpg";
 
 const Home = () => {
   const [isManicureModalOpen, setManicureModalOpen] = useState(false);
@@ -66,10 +68,17 @@ const Home = () => {
       <div className="marquee-container">
         <div className="marquee">
           <span>
-            <FontAwesomeIcon icon={faFacebook} /> Facebook
+            <div className="logoContainer_home">
+              <img id="logo_home" src={logo_2} alt=""></img>
+              <img id="logo_home" src={logo_1} alt=""></img>
+            </div>
           </span>
           <span>
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
+            <FontAwesomeIcon icon={faFacebook} id="facebook" /> Facebook
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "#E1306C" }} />{" "}
+            Instagram
           </span>
           <span>Kostka Nail System</span>
           <span>YTS Beauty Lab</span>
