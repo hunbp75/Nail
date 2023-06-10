@@ -2,22 +2,32 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./contactus.css";
+import logo_1 from "./logo/logo_1.jpg";
+import logo_2 from "./logo/logo_2.jpg";
+import logo_3 from "./logo/logo_3.jpg";
 
 const ContactUs = () => {
   return (
     <div className="contactus_main">
-      <h1>LAKK Szépségszalon</h1>
-      <h3>Monza Hungary Kft.</h3>
-      <h3>2000, Szentendre Stromfeld utca 1/a</h3>
-      <h3>
-        <FontAwesomeIcon icon={faEnvelope} /> lakkszepsegszalon@gmail.com
-      </h3>
-      <h3>
-        <FontAwesomeIcon icon={faPhone} /> +36 20 474-9390
-      </h3>
-      <h3>
-        <FontAwesomeIcon icon={faPhone} /> +36 20 599-2525
-      </h3>{" "}
+      <div className="container_main">
+        <div className="conatiner_2">
+          <div className="logo_header">
+            <img id="logo" src={logo_2} alt=""></img>
+            <img id="logo" src={logo_1} alt=""></img>
+          </div>
+          <h3>Monza Hungary Kft.</h3>
+          <h3>2000, Szentendre Stromfeld utca 1/a</h3>
+          <h3>
+            <FontAwesomeIcon icon={faEnvelope} /> lakkszepsegszalon@gmail.com
+          </h3>
+          <h3>
+            <FontAwesomeIcon icon={faPhone} /> +36 20 474-9390
+          </h3>
+          <h3>
+            <FontAwesomeIcon icon={faPhone} /> +36 20 599-2525
+          </h3>
+        </div>
+      </div>
       <div className="maps_container">
         <div className="street_view">
           <iframe

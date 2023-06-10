@@ -1,28 +1,31 @@
 .booking-popup {
-  background-color: #f5f5f5;
+  background-color: #f8f9fa;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .booking-popup p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .booking-popup label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .booking-popup input,
 .booking-popup textarea {
   width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .popupOverlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Háttérszín beállítása */
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -31,33 +34,77 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Magasabb z-index érték */
+  z-index: 9999;
 }
 
 .popupContent {
-  background-color: #f5f5f5;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 500px; /* Állítsd be a kívánt magasságot */
+  overflow-y: auto; /* Görgetősáv hozzáadása a tartalomhoz */
 }
 
 .booking_button {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #xButton {
-  background-color: red;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-  border-radius: 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#xButton:hover {
+  background-color: #ff33ad;
 }
 
 #submitButton {
   background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#submitButton:hover {
+  background-color: #685bf8;
+}
+
+#submit {
+  background-color: #4caf50;
+  color: #fff;
+  height: 2.4rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1px solid #4caf50;
+}
+
+#submit:hover {
+  background-color: rgb(124, 209, 248);
+  border: 1px solid rgb(124, 209, 248);
+  color: black;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

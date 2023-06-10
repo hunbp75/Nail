@@ -1,18 +1,12 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Datepicker from "./Datepicker";
 import "./booking.css";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 
 const Booking = ({ onClose }) => {
   const [name, setName] = useState("");
   const [Phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  const [startDate, setStartDate] = useState(new Date());
-  const onChange = (dates) => {
-    const [start] = dates;
-    setStartDate(start);
-  };
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -22,8 +16,8 @@ const Booking = ({ onClose }) => {
     setPhone(event.target.value);
   };
 
-  const handleMessageChange = (event) => {
-    setMessage(event.target.value);
+  const handleDateChange = (selectedDate) => {
+    setMessage(selectedDate.toDateString());
   };
 
   const handleFormSubmit = (event) => {
@@ -65,40 +59,26 @@ const Booking = ({ onClose }) => {
       </button>
       <form onSubmit={handleFormSubmit}>
         <p>
-          Kérjük töltse ki az adataival és munkatársunk hamarosan felkeresi
+          Kérjük töltse ki az adataival és munkatársunk hamarosan felkeresi Önt
           egyeztetés céljából telefonon
         </p>
         <label>
           Az Ön keresztneve:
           <input type="text" value={name} onChange={handleNameChange} />
         </label>
-        <br />
+
         <label>
           Telefonszáma:
           <input type="text" value={Phone} onChange={handleEmailChange} />
         </label>
-        <br />
         <label>
-          Kérjük adja meg az időpontot, amikor szeretné igénybe venni a
-          szolgáltatást
-          <textarea value={message} onChange={handleMessageChange} />
-        </label>
-        <br />
-        <label>
-          Dátum:
-          <br />
-          <DatePicker
-            selected={startDate}
-            onChange={onChange}
-            startDate={startDate}
-            selectsRange
-            inline
-            showTimeSelect
-            dateFormat="Pp"
-          />
+          <Datepicker value={message} onChange={handleDateChange} />
         </label>
 
-        <div className="booking_button" id="submitButton">
+        <br />
+        <br />
+
+        <div className="booking_button">
           <button type="submit" id="submit">
             Foglalás küldése
           </button>
