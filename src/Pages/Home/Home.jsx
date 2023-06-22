@@ -3,6 +3,7 @@ import Modal from "react-modal";
 import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import Image0 from "../Pictures/Main-bg.jpg";
 import Image1 from "../Pictures/Screenshot_20230529-023821_Photo Editor Pro - Polish.jpg";
 import Image2 from "../Pictures/Screenshot_20230529-024802_Photo Editor Pro - Polish.jpg";
 import Manicure from "../Product/Manicure";
@@ -52,19 +53,22 @@ const Home = () => {
 
   return (
     <div className="main-container">
-      <div className="container">
-        <div className="image1">
-          <img src={Image1} alt="Kép leírása" />
-        </div>
-        <div className="text1">
-          <h1>Nails by Vera</h1>
-          <p>
-            A szenvedély, a professzionalizmus, a minőség, a melegség azok a
-            szavak, amelyek a legjobban kifejezik a Nails by Vera szalon
-            élményét.
-          </p>
+      <div className="bg-container">
+        <div className="container">
+          <div className="image0">
+            <img src={Image0} alt="Kép leírása" />
+          </div>
+          <div className="text1">
+            <h1>Nails by Vera</h1>
+            <p>
+              A szenvedély, a professzionalizmus, a minőség, a melegség azok a
+              szavak, amelyek a legjobban kifejezik a Nails by Vera szalon
+              élményét.
+            </p>
+          </div>
         </div>
       </div>
+
       <div className="marquee-container">
         <div className="marquee">
           <span>
@@ -74,11 +78,26 @@ const Home = () => {
             </div>
           </span>
           <span>
-            <FontAwesomeIcon icon={faFacebook} id="facebook" /> Facebook
+            <FontAwesomeIcon icon={faFacebook} id="facebook" />{" "}
+            <a
+              href="https://www.facebook.com/your-facebook-page"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Facebook
+            </a>
           </span>
           <span>
             <FontAwesomeIcon icon={faInstagram} style={{ color: "#E1306C" }} />{" "}
-            Instagram
+            <a
+              href="https://www.instagram.com/your-instagram-page"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Instagram
+            </a>
           </span>
           <span>Kostka Nail System</span>
           <span>YTS Beauty Lab</span>
