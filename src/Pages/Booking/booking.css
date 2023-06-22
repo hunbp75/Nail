@@ -1,5 +1,5 @@
 .booking-popup {
-  background-color: #f8f9fa;
+  background-color: #f8f7e5;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -22,6 +22,7 @@
   margin-bottom: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  background-image: linear-gradient(to bottom right, #ffffff, #fbfebc);
 }
 
 .popupOverlay {
@@ -107,4 +108,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.react-calendar {
+  background-image: linear-gradient(to bottom right, #ffffff, #fbfebc);
 }
