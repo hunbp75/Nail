@@ -444,34 +444,41 @@ h1 {
   margin-bottom: 0;
 }
 
-/* Mobil nézet 
-
 @media only screen and (max-width: 600px) {
   .container,
   .container2,
   .container3,
   .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 0;
     margin-right: 0;
   }
 
-  .image1 img,
+  .image0 img,
   .image2 img,
   .image3 img {
-    max-width: 100%;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .text1,
   .text2,
   .text3 {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
     font-size: 14px;
-    height: auto;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .marquee-container {
-    height: auto;
+    height: 6rem;
   }
 
   .marquee {
@@ -484,9 +491,10 @@ h1 {
   }
 
   .section {
-    margin-bottom: 20px;
-    padding: 10px;
     font-size: 14px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .half-modal-container {
@@ -494,4 +502,65 @@ h1 {
     margin: 0 auto;
   }
 }
-*/
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  html {
+    margin-left: 1rem;
+  }
+  .container,
+  .container2,
+  .container3,
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .image0 img,
+  .image2 img,
+  .image3 img {
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .marquee-container {
+    height: 6rem;
+  }
+
+  .marquee {
+    animation: marquee 20s linear infinite;
+    height: 2.5rem;
+  }
+
+  .marquee span {
+    font-size: 20px;
+  }
+
+  .section {
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .half-modal-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
