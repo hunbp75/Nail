@@ -41,7 +41,7 @@ const NavBar = () => {
         </div>
         <div className="socialIcons">
           <a
-            href="https://www.facebook.com/your-facebook-page"
+            href="https://www.facebook.com/profile.php?id=100093624560974&mibextid=ZbWKwL"
             target="_blank"
             rel="noopener noreferrer"
           >
