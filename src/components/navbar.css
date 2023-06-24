@@ -1,4 +1,13 @@
-.navBar {
+/*.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+*/
+
+.navBar-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,6 +90,8 @@
   flex-direction: column;
   margin-right: 6rem;
 }
+
+/*
 @media screen and (max-width: 800px) {
   .navBar {
     flex-direction: column;
@@ -91,5 +102,151 @@
     align-items: center;
 
     justify-content: left;
+  }
+}
+*/
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .responsive-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoContainer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .navButtonContainer {
+    margin-bottom: 2rem;
+  }
+
+  .booking {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .socialIcons {
+    margin-left: 0;
+  }
+
+  .navButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .responsive-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoContainer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .navButtonContainer {
+    margin-bottom: 2rem;
+  }
+
+  .booking {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .socialIcons {
+    margin-left: 0;
+  }
+
+  .navButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .responsive-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoContainer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .navButtonContainer {
+    margin-bottom: 2rem;
+  }
+
+  .booking {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .socialIcons {
+    margin-left: 1rem;
+  }
+
+  .navButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .responsive-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoContainer {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .navButtonContainer {
+    margin-bottom: 2rem;
+  }
+
+  .booking {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .socialIcons {
+    margin-left: 1rem;
+  }
+
+  .navButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .navBar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }

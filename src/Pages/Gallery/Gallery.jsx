@@ -6,7 +6,7 @@ import {
   faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import "./gallery.css";
-import pic001 from "./Images/001.jpg";
+
 import pic002 from "./Images/002.jpg";
 import pic003 from "./Images/003.jpg";
 import pic004 from "./Images/004.jpg";
@@ -42,7 +42,6 @@ import pic033 from "./Images/033.jpg";
 const Gallery = () => {
   const [modalImageIndex, setModalImageIndex] = useState(null);
   const images = [
-    pic001,
     pic002,
     pic003,
     pic004,

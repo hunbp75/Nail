@@ -19,50 +19,52 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navBar">
-      <div className="logoContainer">
-        <img id="logo_red" src={logo_2} alt=""></img>
-        <img id="logo_red" src={logo_1} alt=""></img>
-      </div>
-      <div className="navButtonContainer">
-        <NavLink to="/" exact>
-          Kezdőlap
-        </NavLink>
-        <NavLink to="/About">Rólunk</NavLink>
-        <NavLink to="/Product">Szolgáltatások / Árak</NavLink>
-        <NavLink to="/Gallery">Galéria</NavLink>
-        <NavLink to="/ContactUs">Elérhetőségek</NavLink>
-      </div>
-      <div className="booking">
-        <button className="navButton" onClick={openPopup}>
-          Időpont foglalás
-        </button>
-      </div>
-      <div className="socialIcons">
-        <a
-          href="https://www.facebook.com/your-facebook-page"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <a
-          href="https://www.instagram.com/your-instagram-page"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
-      </div>
-      {isPopupOpen && (
-        <div className="popupOverlay">
-          <div className="popupContent">
-            <div className="bookingContainer">
-              <Booking onClose={closePopup} />
+    <nav className="navBar responsive-nav">
+      <div className="navBar-content">
+        <div className="logoContainer">
+          <img id="logo_red" src={logo_2} alt=""></img>
+          <img id="logo_red" src={logo_1} alt=""></img>
+        </div>
+        <div className="navButtonContainer">
+          <NavLink to="/" exact>
+            Kezdőlap
+          </NavLink>
+          <NavLink to="/About">Rólunk</NavLink>
+          <NavLink to="/Product">Szolgáltatások / Árak</NavLink>
+          <NavLink to="/Gallery">Galéria</NavLink>
+          <NavLink to="/ContactUs">Elérhetőségek</NavLink>
+        </div>
+        <div className="booking">
+          <button className="navButton" onClick={openPopup}>
+            Időpont foglalás
+          </button>
+        </div>
+        <div className="socialIcons">
+          <a
+            href="https://www.facebook.com/your-facebook-page"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a
+            href="https://www.instagram.com/your-instagram-page"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </div>
+        {isPopupOpen && (
+          <div className="popupOverlay">
+            <div className="popupContent">
+              <div className="bookingContainer">
+                <Booking onClose={closePopup} />
+              </div>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </nav>
   );
 };

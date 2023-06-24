@@ -98,11 +98,16 @@ const Home = () => {
             >
               Instagram
             </a>
-          </span>
+          </span>{" "}
+          <span> - </span>
           <span>Kostka Nail System</span>
+          <span> - </span>
           <span>YTS Beauty Lab</span>
+          <span> - </span>
           <span>Jewerlyen</span>
+          <span> - </span>
           <span>Crystal Nails</span>
+          <span> - </span>
           <span>Lush</span>
         </div>
       </div>
