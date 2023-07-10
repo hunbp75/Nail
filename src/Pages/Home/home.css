@@ -477,6 +477,15 @@ h1 {
     margin-right: 0;
   }
 
+  .container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .text1 {
+    padding: 0;
+  }
+
   .marquee-container {
     height: 6rem;
   }
