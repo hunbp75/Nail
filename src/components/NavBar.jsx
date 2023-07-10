@@ -48,7 +48,7 @@ const NavBar = () => {
             <FontAwesomeIcon icon={faFacebook} />
           </a>
           <a
-            href="https://www.instagram.com/your-instagram-page"
+            href="https://instagram.com/lakk.szepsegszalon?igshid=MzNlNGNkZWQ4Mg=="
             target="_blank"
             rel="noopener noreferrer"
           >

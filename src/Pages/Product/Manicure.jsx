@@ -66,7 +66,7 @@ const Manicure = () => {
         <h3>
           <u>GÉL LAKK - EGYSZÍNŰ</u>
         </h3>
-        <p>Ár: 9500 Ft</p>
+        <p>Ár: 13000 Ft</p>
         <p>Szolgáltatás várható időtartama: 1 óra</p>
         <p>
           Szolgáltatás tartalma: Gépi manikűr, Előző gél lakk eltávolítása,
@@ -82,7 +82,7 @@ const Manicure = () => {
         <h3>
           <u>GÉL LAKK - PRÉMIUM</u>
         </h3>
-        <p>Ár: 10500 Ft</p>
+        <p>Ár: 14500 Ft</p>
         <p>Szolgáltatás várható időtartama: 1,5 óra</p>
         <p>
           Szolgáltatás tartalma: Gépi manikűr, Előző gél lakk eltávolítása,

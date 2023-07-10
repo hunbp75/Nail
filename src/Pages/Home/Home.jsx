@@ -91,7 +91,7 @@ const Home = () => {
           <span>
             <FontAwesomeIcon icon={faInstagram} style={{ color: "#E1306C" }} />{" "}
             <a
-              href="https://www.instagram.com/your-instagram-page"
+              href="https://instagram.com/lakk.szepsegszalon?igshid=MzNlNGNkZWQ4Mg=="
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "black", textDecoration: "none" }}

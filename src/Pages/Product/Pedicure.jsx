@@ -14,14 +14,14 @@ const Pedicure = () => {
         <h3>
           <u>PEDIKŰR</u>
         </h3>
-        <span>Esztétikai pedikűr - 12000 Ft</span>
+        <span>Esztétikai pedikűr - 14000 Ft</span>
         <br></br>
         <span>Esztétikai pedikűr Extra - 17000 Ft</span> <br></br>
         <span>Esztétikai pedikűr egy gél lakkal - 15.500 Ft</span> <br></br>
         <span>Esztétikai pedikűr prémium gél lakkal - 18000 Ft</span> <br></br>
-        <span>Gél lakk lábra egyszinű - 13000 Ft</span> <br></br>
+        <span>Gél lakk lábra egyszinű - 14000 Ft</span> <br></br>
         <span>Gél lakk lábra prémium - 16000 Ft</span> <br></br>
-        <span>Gél lakk végleges eltávolítása - 7500 Ft</span> <br></br>
+        <span>Gél lakk végleges eltávolítása - 7000 Ft</span> <br></br>
         <span>
           Gél lakk végleges eltávolítása esztétikai pedikűrrel - 14500 Ft
         </span>

@@ -18,7 +18,7 @@ const ContactUs = () => {
           <h3>Monza Hungary Kft.</h3>
           <h3>2000, Szentendre Stromfeld utca 1/a</h3>
           <h3>
-            <FontAwesomeIcon icon={faEnvelope} /> lakkszepsegszalon@gmail.com
+            <FontAwesomeIcon icon={faEnvelope} /> mukoromszepsegszalon@gmail.com
           </h3>
           <h3>
             <FontAwesomeIcon icon={faPhone} /> +36 20 474-9390
