@@ -10,13 +10,13 @@
 .navBar-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   background-color: #333;
   padding: 10px;
 }
 
 .navButton {
-  color: #fff;
+  color: #f8fcfa;
   text-decoration: none;
   margin: 0 10px;
   font-size: 16px;
@@ -27,7 +27,11 @@
 }
 
 .navButton.active {
-  color: #ff6b6b;
+  color: #77ebf5;
+}
+
+.navButton:hover {
+  transform: scale(1.1);
 }
 
 .navButtonContainer {
