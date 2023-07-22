@@ -68,6 +68,8 @@ html {
   height: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .marquee span {

@@ -11,13 +11,11 @@ const Kids = () => {
         <br></br>
         <span>Polírcsere kézen/lábon - 5000 Ft</span>
         <br></br>
-        <span>levegőre kötő lakk hozzáadása kézre/lábra - 14000 Ft</span>
+        <span>Levegőre kötő lakk hozzáadása (kézre/lábra) - 14000 Ft</span>
         <br></br>
         <span>Kombinált gyerek manikűr + pedikűr - 14500 Ft</span>
         <br></br>
-        <span>Kid Fresh Pedikűr/ Spa - 12000 Ft</span>
-        <br></br>
-        <span>Porcelán műköröm újraépítése - 19000 Ft</span>
+        <span>Kid Fresh gyógypedikűr - 12000 Ft</span>
         <br></br>
       </div>
       <br></br> <br></br>

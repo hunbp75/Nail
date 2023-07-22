@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Image0 from "../Pictures/Main-bg.jpg";
 import Image1 from "../Pictures/Screenshot_20230529-023821_Photo Editor Pro - Polish.jpg";
-import Image2 from "../Pictures/Screenshot_20230529-024802_Photo Editor Pro - Polish.jpg";
+import Image2 from "../Pictures/Screenshot_20230722-183934_Photo Editor Pro - Polish.jpg";
 import Manicure from "../Product/Manicure";
 import Pedicure from "../Product/Pedicure";
 import Nails from "../Product/Nails";
@@ -102,7 +102,7 @@ const Home = () => {
           <span> - </span>
           <span>Kostka Nail System</span>
           <span> - </span>
-          <span>YTS Beauty Lab</span>
+          <span>YAS Beauty Lab</span>
           <span> - </span>
           <span>Jewerlyen</span>
           <span> - </span>

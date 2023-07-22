@@ -38,6 +38,7 @@ import pic030 from "./Images/030.jpg";
 import pic031 from "./Images/031.jpg";
 import pic032 from "./Images/032.jpg";
 import pic033 from "./Images/033.jpg";
+import pic034 from "./Images/034.jpg";
 
 const Gallery = () => {
   const [modalImageIndex, setModalImageIndex] = useState(null);
@@ -73,6 +74,7 @@ const Gallery = () => {
     pic031,
     pic032,
     pic033,
+    pic034,
   ];
 
   const openModal = (index) => {

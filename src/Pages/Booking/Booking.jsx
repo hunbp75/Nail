@@ -23,9 +23,9 @@ const Booking = ({ onClose }) => {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    const serviceID = "service_ekznuj3";
-    const templateID = "template_20v9c8g";
-    const userID = "LSjKBSH-oftzuVitp";
+    const serviceID = "service_5t3p2q5";
+    const templateID = "template_mfjo7dl";
+    const userID = "tBKt421zHQsINyrmJ";
 
     const templateParams = {
       from_name: name,

@@ -16,17 +16,17 @@ const Pedicure = () => {
         </h3>
         <span>Esztétikai pedikűr - 14000 Ft</span>
         <br></br>
-        <span>Esztétikai pedikűr Extra - 17000 Ft</span> <br></br>
-        <span>Esztétikai pedikűr egy gél lakkal - 15.500 Ft</span> <br></br>
-        <span>Esztétikai pedikűr prémium gél lakkal - 18000 Ft</span> <br></br>
-        <span>Gél lakk lábra egyszinű - 14000 Ft</span> <br></br>
-        <span>Gél lakk lábra prémium - 16000 Ft</span> <br></br>
-        <span>Gél lakk végleges eltávolítása - 7000 Ft</span> <br></br>
+        <span>Esztétikai pedikűr - Extra - 15000 Ft</span> <br></br>
+        <span>Esztétikai pedikűr egyszínű géllakkal - 10000 Ft</span> <br></br>
+        <span>Esztétikai pedikűr prémium géllakkal - 16000 Ft</span> <br></br>
+        <span>Géllakk lábra - egyszínű - 10000 Ft</span> <br></br>
+        <span>Géllakk lábra - prémium - 15000 Ft</span> <br></br>
+        <span>Géllakk végleges eltávolítása - 7500 Ft</span> <br></br>
         <span>
-          Gél lakk végleges eltávolítása esztétikai pedikűrrel - 14500 Ft
+          Géllakk végleges eltávolítása esztétikai pedikűrrel - 14000 Ft
         </span>
         <br></br>
-        <span>Köröm korrekciója (más szolgáltatás mellé) - 2500 Ft</span>
+        <span>Köröm korrekciója (más szolgáltatás mellé) - 2500 Ft / db</span>
       </div>
       <br></br>
       <br></br>
@@ -38,7 +38,7 @@ const Pedicure = () => {
           Ideális ötvözete a hagyományos kézi pedikűrnek a SPA lábápolásnak és
           bőrfiatalításnak. Aromaterápiás kényeztető luxus csomag.
         </p>
-        <span>Ár: 25000 Ft</span>
+        <span>Ár: 22000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb.1 óra</span>
         <br></br>
@@ -61,7 +61,7 @@ const Pedicure = () => {
         <h3>
           <u>SPA PEDIKŰR</u>
         </h3>
-        <span>Ár: 15000 Ft</span>
+        <span>Ár: 13000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb. 60 perc</span> <br></br>
         <span>
@@ -84,7 +84,7 @@ const Pedicure = () => {
         <li>Esztétikus, szép körömforma kialakítása</li>
         <li>Gyenge, töredezett köröm megerősítése</li>
         <br></br>
-        <span>Ár: 17000 Ft</span>
+        <span>Ár: 14000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb. 90 perc</span>
         <br></br>

@@ -13,17 +13,15 @@ const Nails = () => {
         <h3>
           <u>Szolgáltatások</u>
         </h3>
-        <span>Gél lakkozás nélkül - 9500 Ft</span>
+        <span>Zselés műköröm töltés - 13000 Ft</span>
         <br></br>
-        <span>Zselés műköröm töltés - 15000 Ft</span>
+        <span>Zselés műköröm újraépítése - 16000 Ft</span>
         <br></br>
-        <span>Zselés műköröm újraépítése - 18000 Ft</span>
+        <span>Porcelán műköröm építés - 15000 Ft</span>
         <br></br>
-        <span>Porcelán műköröm építés - 17000 Ft</span>
+        <span>Porcelán műköröm töltés - 15000 Ft</span>
         <br></br>
-        <span>Porcelán műköröm töltés - 17000 Ft</span>
-        <br></br>
-        <span>Porcelán műköröm újraépítése - 19000 Ft</span>
+        <span>Porcelán műköröm újraépítése - 18000 Ft</span>
         <br></br>
         <span>Műköröm építés egyszinű - 14000 Ft</span>
         <br></br>
@@ -41,16 +39,16 @@ const Nails = () => {
         <br></br>
         <span>Műköröm újraépítés - extrém forma - 32400 Ft</span>
         <br></br>
-        <span>Műköröm töltés egyszínű - 15000 Ft</span>
+        <span>Műköröm töltés egyszínű - 14000 Ft</span>
         <br></br>
-        <span>Műköröm töltés prémium + gél lakk - 19500 Ft</span>
+        <span>Műköröm töltés prémium + géllakk - 18000 Ft</span>
         <br></br>
-        <span>Műköröm töltés XL - 22800 Ft</span>
+        <span>Műköröm töltés XL - 20000 Ft</span>
         <br></br>
         <span>Pótlás más szolgáltatás mellé - 2500 Ft/db</span>
         <br></br>
         <span>
-          Műköröm/Gél lakk eltávolítása más szolgáltatás előtt - 5000 Ft
+          Műköröm / Géllakk eltávolítása más szolgáltatás előtt - 6000 Ft
         </span>
         <br></br>
         <span>Műköröm végleges eltávolítása - 8500 Ft</span>
@@ -62,15 +60,15 @@ const Nails = () => {
         <h3>
           <u>Díszítések</u>
         </h3>
-        <span>swarovski formakő - 600 Ft/db</span>
+        <span>Swarovski formakő - 600 Ft/db</span>
         <br></br>
-        <span>swarovski starssz - 100 Ft/db</span>
+        <span>Swarovski starssz - 100 Ft/db</span>
         <br></br>
-        <span>swarovski Pixie kisebb díszítés - 700 Ft/db</span>
+        <span>Swarovski Pixie kisebb díszítés - 700 Ft/db</span>
         <br></br>
-        <span>swarovski Pixie teljes körömre (normál hossz) - 1800 Ft/db</span>
+        <span>Swarovski Pixie teljes körömre (normál hossz) - 1800 Ft/db</span>
         <br></br>
-        <span>swarovski Pixie teljes körömre (XL) - 2500 Ft/db</span>
+        <span>Swarovski Pixie teljes körömre (XL) - 2500 Ft/db</span>
         <br></br>
         <span>Plusz díszítés - 400 Ft/db</span>
         <br></br>
