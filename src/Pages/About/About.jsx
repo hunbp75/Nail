@@ -9,25 +9,28 @@ const About = () => {
           <div className="text_rainbow">
             <h1>Nails by Vera</h1>
           </div>
-          Üdvözöljük a Nails by Vera, a szentendrei körömszalonban, amely büszke
-          arra, hogy a város legjobb manikűr és pedikűr szolgáltatásait kínálja!
-          Profi csapatunk készen áll arra, hogy felejthetetlen élményt nyújtson
+          Üdvözöljük a Nails by Vera körömszalonban, Szentendre büszkeségében,
+          ahol a város legjobb manikűr és pedikűr szolgáltatásait kínáljuk!
+          Profi csapatunk készen áll, hogy felejthetetlen élményt nyújtson
           Önnek.
         </p>
         <p>
-          A körömkezelések széles választékát kínáljuk, amelyek garantálják az
-          egészséges és szép körmöket. Akár klasszikus manikűrre, akár gyors
-          körömkezelésre vágyik, akkor is professzionális eredményt érhet el, ha
-          a klasszikus szolgáltatásokat választja.
+          Széles köröm kezelési választékunk garantálja az egészséges és szép
+          körmöket. Akár klasszikus manikűrre, akár gyors körömkezelésre vágyik,
+          professzionális eredményekre számíthat, ha a hagyományos
+          szolgáltatásainkat választja.
         </p>
         <p>
-          Azért vagyunk itt, hogy segítsünk ötleteket készíteni és kiválasztani
-          az igényeinek leginkább megfelelő megoldást. Jöjjön el és lazítson egy
-          kényelmes és kellemes légkörben, miközben megcsinálja körmeit.
-          Szentendre legjobb körömszalonjában. Engedje meg, hogy elkényeztessük,
-          és segítünk, hogy távozáskor széles mosoly legyen az arcán. Az időpont
-          egyeztetés gyors és egyszerű, ezért ne habozzon kapcsolatba lépni
-          velünk, hogy időpontot foglaljunk még most!
+          Célunk, hogy segítsünk ötleteket megvalósítani és megtaláljuk az Ön
+          igényeinek legmegfelelőbb megoldást. Látogasson el hozzánk, és
+          pihenjen egy kényelmes, kellemes légkörben, miközben körmeit
+          elkészítjük. Szentendre legjobb köröm szalonjában garantáltan örömet
+          fog lelni. Engedje meg, hogy kényeztessük, és távozáskor mosoly legyen
+          az arcán.
+        </p>
+        <p>
+          Az időpont foglalása egyszerű és gyors, így ne habozzon kapcsolatba
+          lépni velünk, hogy azonnal időpontot foglaljon!
         </p>
       </div>
     </div>

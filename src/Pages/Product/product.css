@@ -65,3 +65,15 @@
   font-size: 1rem;
   color: #777;
 }
+
+@media only screen and (max-width: 600px) {
+  .product_grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .product_grid {
+    grid-template-columns: 1fr;
+  }
+}
