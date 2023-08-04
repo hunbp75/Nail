@@ -3,33 +3,33 @@ const ProductMainText = () => {
     <div>
       <p>Kedves Vendégek!</p>
       <section>
-        A műköröm építést, géllakkozást, valamint anyag eltávolítását kizárólag
-        csak szakemberrel végeztessétek el. Ellenkező esetben az alábbi
-        problémák merülhetnek fel.
+        Szeretnénk felhívni figyelmüket, hogy a műköröm építést, géllakkozást és
+        anyag eltávolítást kizárólag szakemberrel végeztessék el. Ellenkező
+        esetben számos probléma merülhet fel, mint például:
       </section>
       <p>Köröm betegségek:</p>
       <div className="product_text_section">
-        <section>
-          - Szürke köröm- Pseudomonas Bacterial. A körömlemez elválik a
+        <li>
+          Szürke köröm- Pseudomonas Bacterial. A körömlemez elválik a
           körömágytól, így könnyen baktériumok telepednek alatta.
-        </section>
-        <section>- Körömlemez elszíneződése.</section>
-        <section>- Fehér pontok a körmön – Leukonychia</section>
-        <section>- Fertőző gomba – Onychomycosis</section>
-        <section>- Töredező köröm – Onychorrhexis</section>
-        <section>- Körömsánc gyulladás</section>
-        <section>- Repedezett köröm</section>
+        </li>
+        <li>Körömlemez elszíneződése.</li>
+        <li>Fehér pontok a körmön – Leukonychia</li>
+        <li>Fertőző gomba – Onychomycosis</li>
+        <li>Töredező köröm – Onychorrhexis</li>
+        <li>Körömsánc gyulladás</li>
+        <li>Repedezett köröm</li>
         <p>
-          A fentiekben felsorolt betegségek csupán egy része annak amennyiben
-          nem szakember végzi el a kezeléseket.
+          A felsorolt betegségek csak néhány példa arra, milyen problémák
+          léphetnek fel, ha nem szakember végzi a kezeléseket.
         </p>
         <p>
-          A Lakk Szépségszalon kizárólag csak egészséges körmöket vállal el,
-          mivel nem gyógyítunk betegségeket. Első alkalommal egy diagnosztikát
-          végzünk, amit egy kezelési lapon rögzítünk. Ezt követően egy kezelési
-          tervet készítünk. A kezelési terv a köröm állapotától függő. Bármilyen
-          kérdéssel kapcsolatban nyugodtan forduljatok hozzánk, tanácsokkal is
-          segítünk.
+          A Lakk Szépségszalonban kizárólag egészséges körmöket vállalunk, mivel
+          nem gyógyítunk betegségeket. Az első látogatás alkalmával diagnózist
+          készítünk, melyet kezelési lapon rögzítünk. Ezt követően egy egyedi
+          kezelési tervet állítunk össze, amely a köröm állapotától függ. Ha
+          bármilyen kérdésük van, nyugodtan forduljanak hozzánk, szívesen adunk
+          tanácsokat is.
         </p>
       </div>
     </div>

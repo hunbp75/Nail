@@ -47,11 +47,30 @@
 @media only screen and (max-width: 600px) {
   .maps_container {
     flex-direction: column;
+    align-items: center;
+  }
+  .maps_container iframe {
+    max-width: 350px;
+    max-height: 250px;
+  }
+
+  .street_view,
+  .google_map {
+    border: none;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 880px) {
   .maps_container {
     flex-direction: column;
+  }
+  .street_view,
+  .google_map {
+    border: none;
+  }
+
+  .maps_container iframe {
+    max-width: 100%;
+    max-height: 100%;
   }
 }

@@ -3,10 +3,10 @@ const Nails = () => {
     <div>
       <h1>Műköröm Szolgáltatások</h1>
       <p>
-        Tartós, trendhez hű és személyiségéhez illő műkörmökkel és körmei
-        díszítésével, ápolásával járulok hozzá kényelméhez. Négy, vagy akár 7
-        hétig tartó, strapabíró körmöket építek, melyeket ezután igény szerint
-        töltéskor akár más dizájnra vagy fazonra változtathatunk.
+        Kényelméhez hozzájárulok tartós, trendhez hű és személyiségéhez illő
+        műkörmökkel, valamint körmei díszítésével és ápolásával. Négy, akár hét
+        hétig is tartó, strapabíró körmöket építek, melyeket igény szerint
+        töltéskor akár más dizájnra vagy fazonra is változtathatunk.
       </p>
       <br></br>
       <div className="pedicure">
@@ -52,6 +52,10 @@ const Nails = () => {
         </span>
         <br></br>
         <span>Műköröm végleges eltávolítása - 8500 Ft</span>
+        <p>
+          Reméljük, hogy ezek a műköröm szolgáltatások segítenek megtalálni a
+          tökéletes stílust és gondoskodnak körmeid szépségéről és egészségéről!
+        </p>
         <br></br>
       </div>
       <br></br>

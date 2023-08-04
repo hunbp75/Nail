@@ -101,3 +101,44 @@
 .close {
   right: -70px;
 }
+
+@media only screen and (max-width: 660px) {
+  .gallery img {
+    width: 80%;
+    height: auto;
+  }
+
+  .modal {
+    display: none;
+  }
+  .gallery img:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 665px) and (max-width: 800px) {
+  .modal img {
+    max-width: 75%;
+    max-height: 80vh;
+    display: block;
+    margin: 0 auto; /* Középre igazítás */
+  }
+  .modal-content {
+    position: relative;
+  }
+  .prev {
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .next {
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .close {
+    right: 0%;
+    top: 0%;
+  }
+}

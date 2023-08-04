@@ -1,12 +1,14 @@
 const Manicure = () => {
   return (
     <div>
-      <h1>Manikűr szolgáltatások</h1>
+      <h1>Manikűr szolgáltatásaink</h1>
       <p>
-        Kezünk és körmünk ápolása minden évszakban fontos. Akár egy egyszerű
-        manikűrrel vagy erősítő japán manikűrrel elegánsan tartható. Egy sima
-        lakkozással vagy tartós gél lakkozással tehetjük teljessé a látványt.
-        Bőrünket paraffinos kézápolással selymessé varázsolhatjuk.
+        Kezünk és körmünk ápolása kiemelten fontos minden évszakban. Az elegáns
+        megjelenésért egyszerű manikűrrel vagy erősítő japán manikűrrel is
+        gondoskodhatunk. Ha szeretnéd tökéletesíteni a külsőd, választhatod a
+        sima lakkozást vagy a tartós gél lakkozást is. Emellett különleges
+        élményt nyújt a bőrünknek a paraffinos kézápolás, melynek hatására
+        selymesen puhává válik.
       </p>
       <br></br>
       <div className="pedicure">
@@ -15,15 +17,22 @@ const Manicure = () => {
           <br></br>
           <u>GÉPI MANIKŰR</u>
         </h3>
-        <p>7000 Ft</p>
-        <p>Szolgáltatás várható ideje: 30 perc</p>
-        <p>Szolgáltatás tartalma: Gépi manikűr</p>
+        <li>Ár: 7000 Ft</li>
+        <li>Várható időtartam: 30 perc</li>
+        <li>Szolgáltatás tartalma:</li>
         <p>
-          Gépi manikűr szolgáltatásunkban speciális fréz erekkel dolgozom
-          Kialakítjuk a kívánt körömhosszt és formát, az egyenletes
-          körömfelületet és kezeljük a körömlemez körüli és a körömlemezre
-          letapadt bőrt. A körmöd felületét kérheted mattra vagy fényesre
-          polírozva. A szolgáltatás befejezése a bőr hatékony ápolása
+          Szolgáltatás tartalma: A gépi manikűr során speciális frézereket
+          használunk, hogy kialakítsuk a kívánt körömhosszt és formát. Teljes
+          mértékben egyenletes körömfelületet eredményezünk, és gondoskodunk a
+          körömlemez körüli és a körömlemezre tapadt bőr kezeléséről is. A köröm
+          felületét mattra vagy fényesre polírozzuk, igényednek megfelelően. A
+          szolgáltatás befejezéseként pedig hatékony bőrápolást kap a kezed,
+          hogy tökéletesen ápolt és szép megjelenést érhessünk el.
+        </p>
+        <p>
+          Reméljük, hogy a manikűr szolgáltatásaink segítségével a kezed és a
+          körmöd mindig tökéletes állapotban lesznek, és garantáltan elégedett
+          leszel a látvánnyal!
         </p>
       </div>
       <br></br>
@@ -49,14 +58,14 @@ const Manicure = () => {
           <u>KLASSZIKUS MANIKŰR</u>
         </h3>
         <p>Ár: 11000 Ft</p>
-        <p>Szolgáltatás várható ideje: 30 perc</p>
-        <p>Szolgáltatás tartalma: Gépi manikűr</p>
+        <p>A szolgáltatás várható időtartama: 30 perc</p>
+        <p>A szolgáltatás részletei: Gépi manikűr</p>
         <p>
-          Gépi manikűr szolgáltatásunkban speciális fréz erekkel dolgozom
-          Kialakítjuk a kívánt körömhosszt és formát, az egyenletes
-          körömfelületet és kezeljük a körömlemez körüli és a körömlemezre
-          letapadt bőrt. A körmöd felületét kérheted mattra vagy fényesre
-          polírozva. A szolgáltatás befejezése a bőr hatékony ápolása
+          A gépi manikűr során speciális frézerkéket használunk. Kialakítjuk a
+          kívánt körömhosszt és formát, az egyenletes körömfelületet, valamint
+          kezeljük a körömlemezt körülvevő és ráragadt bőrt. A köröm felületét
+          kérheted mattnak vagy fényesen polírozva. A szolgáltatás zárása a bőr
+          hatékony ápolása.
         </p>
       </div>
       <br></br>
@@ -93,16 +102,17 @@ const Manicure = () => {
         <p>Ár: 14000 Ft</p>
         <p>Szolgáltatás várható időtartama: 1,5 óra</p>
         <p>
-          Szolgáltatás tartalma: Gépi manikűr, Előző géllakk eltávolítása,
-          Erősített gél lakkozás (egyszínű, Ombre, Francia, Babyboomer), 2
-          díszítés
+          A szolgáltatás magában foglalja: Gépes manikűr, a korábbi géllakk
+          eltávolítása, erősített géllakk alkalmazása (egyszínű, Ombre, Francia,
+          Babyboomer), 2 díszítés
         </p>
         <p>
-          Gépi manikűr és az előző gél lakk eltávolítását követően egy erősített
-          gél lakkozást készítem neked. Prémium szolgáltatásunk során
-          választhatod az egyszínű, francia, ombre vagy akár babyboomer
-          díszítéseket is. A szolgáltatásba foglalt 2 díszítésed lehet kissé
-          extrémebb, a szolgáltatás időtartományán belül.
+          A gépes manikűr és a korábbi géllakk eltávolítása után, erősített
+          géllakkozással teszem újjá a körmeidet. Prémium szolgáltatásunk
+          keretében választhatsz az egyszínű, francia, ombre, vagy akár
+          babyboomer díszítések közül. A szolgáltatás tartalmaz két díszítést
+          is, amelyek akár egy picit extravagánsabbak is lehetnek, a
+          szolgáltatás időkeretein belül.
         </p>
       </div>
       <br></br>
@@ -113,20 +123,17 @@ const Manicure = () => {
         </h3>
         <p>Ár: 7000 Ft</p>
         <p>Szolgáltatás várható időtartama: 45 perc</p>
-        <p>Szolgáltatás tartalma: Gépi manikűr, Gél lakk eltávolítás.</p>
+        <p>Szolgáltatás tartalma: Gépi manikűr, Géllakk eltávolítás.</p>
         <p>
-          A géllakk végleges eltávolítása csiszológép segítségével és oldással
-          történik. A szolgáltatás része a gépi manikűr és a körmök fényének
-          visszaadása polírozással. A géllakk végleges eltávolítása csiszológép
-          segítségével és oldással történik. A szolgáltatás része a gépi manikűr
-          és a körmök fényének visszaadása polírozással.A géllakk végleges
-          eltávolítása csiszológép segítségével és oldással történik. A
-          szolgáltatás része a gépi manikűr és a körmök fényének visszaadása
-          polírozással.
+          A géllakk eltávolítása csiszológép és oldószerek segítségével
+          történik. Ez a folyamat a körmökben lévő természetes olajokat is
+          eltávolítja, így fontos a megfelelő manikűr és a körmök polírozása,
+          hogy visszaállítsuk a természetes fényüket.
         </p>
         <p>
-          Rágott köröm esetén is tudunk segíteni, erre egy külön technikai
-          megoldással rendelkezünk.
+          Rágott köröm esetén is tudunk segíteni, ebben az esetben egy speciális
+          technikát alkalmazunk, hogy a köröm visszanyerje esztétikus
+          megjelenését.
         </p>
       </div>
       <br></br>

@@ -3,17 +3,18 @@ const Pedicure = () => {
     <div>
       <h1>Pedikűr Szolgáltatások</h1>
       <p>
-        A nyári tisztaság, a téli pompa megtartásában a pedikűr is létfontosságú
-        szerepet játszik. Bőrkeményedéseinek eltüntetését bízza szakemberre.
-        Fellegekben fog járni utána. Enyhébb mértékben benőtt körmök szakszerű
-        kezelését és kivágását elvégezzük, ezzel megszabadítjuk a benövéssel
-        járó kellemetlenségektől.
+        Lábaink ápolása kiemelten fontos minden évszakban, hiszen a nyári
+        frissesség és a téli elegancia is elengedhetetlen. Bőrkeményedéseink
+        eltüntetését érdemes szakemberre bízni, így könnyed léptekkel járhatunk
+        utána. Szakszerűen kezeljük az enyhén benőtt köröm problémáit is, hogy
+        megszabaduljunk a kellemetlenségektől.
       </p>
       <br></br>
       <div className="pedicure">
         <h3>
           <u>PEDIKŰR</u>
         </h3>
+        <p>Az alábbi pedikűr szolgáltatások közül választhatunk:</p>
         <span>Esztétikai pedikűr - 14000 Ft</span>
         <br></br>
         <span>Esztétikai pedikűr - Extra - 15000 Ft</span> <br></br>
@@ -27,6 +28,11 @@ const Pedicure = () => {
         </span>
         <br></br>
         <span>Köröm korrekciója (más szolgáltatás mellé) - 2500 Ft / db</span>
+        <p>
+          Reméljük, hogy ezek a pedikűr szolgáltatások segítenek megőrizni
+          lábaink szépségét és egészségét, és teljes mértékben elégedettek
+          leszünk a végeredménnyel!
+        </p>
       </div>
       <br></br>
       <br></br>
@@ -35,8 +41,9 @@ const Pedicure = () => {
           <u>ANTI-AGE BŐRRFIATALÍTÓ PEDIKŰR</u>
         </h3>
         <p>
-          Ideális ötvözete a hagyományos kézi pedikűrnek a SPA lábápolásnak és
-          bőrfiatalításnak. Aromaterápiás kényeztető luxus csomag.
+          Az Anti-Age bőrfiatalító pedikűr az ideális ötvözete a hagyományos
+          kézi pedikűrnek, a SPA lábápolásnak és a bőrfiatalításnak, ami egy
+          aromaterápiás kényeztető luxus csomag.
         </p>
         <span>Ár: 22000 Ft</span>
         <br></br>
@@ -54,6 +61,10 @@ const Pedicure = () => {
           pihentetjük
         </li>
         <li>Krémezés természetes hatóanyagú krémmel</li>
+        <p>
+          Ez a különleges pedikűr kezelés segít megőrizni és fiatalítani a
+          bőrödet, miközben teljes relaxációt biztosít a lábaidnak.
+        </p>
       </div>
       <br></br>
       <br></br>
@@ -67,23 +78,24 @@ const Pedicure = () => {
         <span>
           <u>Kezelés menete:</u>
         </span>
-        <li>lábáztatás holttengeri sóval</li>
-        <li>szakszerű kézi pedikűr</li>
-        <li>bőroldóval a körömbőr feltolása, eltávolítása</li>
-        <li>krémezés, természetes hatóanyagú krémmel</li>
-        <li>húzzunk rá nylon és pamutkesztyűt és pár percig pihentetjük</li>
+        <li>Lábáztatás Holt-tengeri sóval</li>
+        <li>Szakszerű kézi pedikűr</li>
+        <li>Bőroldó segítségével a körömbőr feltolása és eltávolítása</li>
+        <li>Krémezés természetes hatóanyagokat tartalmazó krémmel</li>
+        <li>Nylon és pamutkesztyű felhelyezése, majd pár perces pihenőidő</li>
       </div>
       <br></br>
       <br></br>
       <div className="pedicure">
         <h3>
-          <u>LÁB KÖRÖMERŐSÍTÉS GUMI ZSELÉVEL / RUBBER</u>
+          <u>LÁBKÖRÖM ERŐSÍTÉS GUMI ZSELÉVEL (RUBBER)</u>
         </h3>
-        <span>A lábköröm megerősítése, formázása zselével.</span>
-        <li>Tartós nem kell mindig lakkozni</li>
-        <li>Esztétikus, szép körömforma kialakítása</li>
-        <li>Gyenge, töredezett köröm megerősítése</li>
-        <br></br>
+        <p>
+          A lábköröm erősítése és formázása zselével. Tartóssága miatt nem
+          szükséges állandóan újralakkozni. Esztétikus, szép körömforma
+          kialakítása. Gyenge, töredezett köröm megerősítése.
+        </p>
+
         <span>Ár: 14000 Ft</span>
         <br></br>
         <span>Kezelési idő: kb. 90 perc</span>
@@ -93,12 +105,12 @@ const Pedicure = () => {
         </span>
         <li>SPA fürdő</li>
         <li>Régi lakk eltávolítása</li>
-        <li>Köröm elő készítése</li>
-        <li>A köröm zsírtalanítása</li>
+        <li>Köröm előkészítése</li>
+        <li>Köröm zsírtalanítása</li>
         <li>
           A zselét vékony rétegben felvisszük, majd UV lámpában megköttetjük.
         </li>
-        <li>Formázás, fényzselé</li>
+        <li>Formázás, fényzselé alkalmazása</li>
       </div>
       <br></br>
       <br></br>
@@ -107,13 +119,15 @@ const Pedicure = () => {
           <u>KÖRÖM PROTÉZIS / darab</u>
         </h3>
         <p>
-          A körömprotézis olyan módszer, amely segítségével mesterséges kéz és
-          lábkörmöt készíthetünk. A körömpótlást a körömcsonkra építjük, amely
-          hónapokig használható, eltakarva a sérült részt. A körömprotézis
-          megoldást jelenthet az esztétikailag zavaró, sérült vagy hiányos.
+          A körömprotézis egy technika, amelynek segítségével mesterséges kéz-
+          és lábköröm készíthető. A pótlást közvetlenül a körömcsonkra építjük,
+          így eltakarva a sérült részt, amely hónapokig használható. A
+          körömprotézis ideális megoldást nyújthat esztétikailag zavaró, sérült
+          vagy hiányzó körmök esetén.
         </p>
         <p>
-          A kezelés után a köröm igény szerint lakkal vagy gél lakkal fedhető.
+          A kezelést követően a köröm igény szerint lakkal vagy géllakkal
+          borítható.
         </p>
         <span>Ár: 5000 Ft</span>
         <br></br>
@@ -132,18 +146,19 @@ const Pedicure = () => {
           állítja helyre. A benőtt lábköröm felemelésével azonnali fájdalom
           csökkenés érhető el, így a beteg közérzete is javul.
         </p>
-        <span>
+        <div className="text_align_left">
           <u>A 3TO-SPANGE lényeges tulajdonságai:</u>
-        </span>
-        <li>könnyen feltehető</li>
-        <li>a húzóerő egyénileg szabályozható</li>
-        <li>a húzóerő egyénileg szabályozható</li>
-        <li>anyaga speciális rugós nemesacél</li>
-        <li>gyulladás esetén is kifejti hatását</li>
-        <li>nem zárja el a körmöt és a bőrt a levegőtől</li>
-        <li>azonnali fájdalomcsökkenés/mentesség a felhelyezés után</li>
-        <li>a fájdalmas operáció az esetek 90%-ban elkerülhető</li>
-        <li>a cipőviselést nem befolyásolja</li>
+          <br></br>
+          <br></br>
+          <li>könnyen feltehető</li>
+          <li>a húzóerő egyénileg szabályozható</li>
+          <li>anyaga speciális rugós nemesacél</li>
+          <li>gyulladás esetén is kifejti hatását</li>
+          <li>nem zárja el a körmöt és a bőrt a levegőtől</li>
+          <li>azonnali fájdalomcsökkenés/mentesség a felhelyezés után</li>
+          <li>a fájdalmas operáció az esetek 90%-ban elkerülhető</li>
+          <li>a cipőviselést nem befolyásolja</li>
+        </div>
         <p>
           A kezelés ideje függ a köröm növekedésének gyorsaságától. A SPANGET
           rendszeresen ellenőrizni és áthelyezni kell, ez a felhelyezés után 3
