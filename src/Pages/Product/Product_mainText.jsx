@@ -31,6 +31,11 @@ const ProductMainText = () => {
           bármilyen kérdésük van, nyugodtan forduljanak hozzánk, szívesen adunk
           tanácsokat is.
         </p>
+        <br></br>
+        <span>
+          A Lakk Szépségszalonban készpénzel és bankkártáyával egyaránt
+          fizethet.
+        </span>
       </div>
     </div>
   );

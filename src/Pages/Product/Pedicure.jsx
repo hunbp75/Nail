@@ -17,14 +17,15 @@ const Pedicure = () => {
         <p>Az alábbi pedikűr szolgáltatások közül választhatunk:</p>
         <span>Esztétikai pedikűr - 14000 Ft</span>
         <br></br>
-        <span>Esztétikai pedikűr - Extra - 15000 Ft</span> <br></br>
-        <span>Esztétikai pedikűr egyszínű géllakkal - 10000 Ft</span> <br></br>
-        <span>Esztétikai pedikűr prémium géllakkal - 16000 Ft</span> <br></br>
-        <span>Géllakk lábra - egyszínű - 10000 Ft</span> <br></br>
-        <span>Géllakk lábra - prémium - 15000 Ft</span> <br></br>
-        <span>Géllakk végleges eltávolítása - 7500 Ft</span> <br></br>
+        <span>Esztétikai pedikűr - Extra - 13000 Ft</span> <br></br>
+        <span>Esztétikai pedikűr egyszínű gél lakkal - 12000 Ft</span> <br></br>
+        <span>Esztétikai pedikűr prémium gél lakkal - 16000 Ft</span> <br></br>
+        <span>Gél lakk lábra - egyszínű - 10000 Ft</span> <br></br>
+        <span>Gél lakk lábra (francia, ombre) - 12000 Ft</span> <br></br>
+        <span>Gél lakk lábra - prémium - 15000 Ft</span> <br></br>
+        <span>Gél lakk végleges eltávolítása - 4000 Ft</span> <br></br>
         <span>
-          Géllakk végleges eltávolítása esztétikai pedikűrrel - 14000 Ft
+          Gél lakk végleges eltávolítása esztétikai pedikűrrel - 10000 Ft
         </span>
         <br></br>
         <span>Köröm korrekciója (más szolgáltatás mellé) - 2500 Ft / db</span>
@@ -181,7 +182,7 @@ const Pedicure = () => {
           stb… beakadását
         </li>
         <br></br>
-        <span>Ár: 22000 Ft</span>
+        <span>Ár: 15000 Ft</span>
         <br></br>
         <span>Felhelyezési idő 1 óra, pedikűrrel 2 óra.</span>
       </div>
@@ -220,7 +221,7 @@ const Pedicure = () => {
           Ez a módszer minden korosztály számára alkalmazható, gyermeknél és
           cukorbetegeknél egyaránt.
         </p>
-        <span>Ár: 17 000 Ft</span>
+        <span>Ár: 13000 Ft</span>
         <br></br>
         <span>Felhelyezési idő 1 óra, pedikűrrel 2 óra</span>
       </div>

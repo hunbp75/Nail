@@ -57,7 +57,8 @@ const Manicure = () => {
         <h3>
           <u>KLASSZIKUS MANIKŰR</u>
         </h3>
-        <p>Ár: 11000 Ft</p>
+        <p>Klasszikus manikűr - 3000 Ft</p>
+        <p>Extrém rossz állapotban lévő körmök esetén + 2000 Ft</p>
         <p>A szolgáltatás várható időtartama: 30 perc</p>
         <p>A szolgáltatás részletei: Gépi manikűr</p>
         <p>
@@ -83,7 +84,14 @@ const Manicure = () => {
         <h3>
           <u>GÉLLAKK - EGYSZÍNŰ</u>
         </h3>
-        <p>Ár: 12000 Ft</p>
+        <p>Erősített gél lakk (teli szín, baby boomer) - 8500 Ft</p>
+        <p>Erősített gél lakk (francia, ombre) - 9000 Ft</p>
+        <p>Erősített gél lakk 'S' méret - 10000 Ft</p>
+        <p>Teljes gél lakk csere + 1000 Ft</p>
+        <p>
+          Rossz állapotban lévő / gél lakk cseréje (teljes alap cserével) + 2000
+          Ft
+        </p>
         <p>Szolgáltatás várható időtartama: 1 óra</p>
         <p>
           Szolgáltatás tartalma: Gépi manikűr, Előző géllakk eltávolítása,
@@ -121,7 +129,8 @@ const Manicure = () => {
         <h3>
           <u>GÉLLAKK ELTÁVOLÍTÁS</u>
         </h3>
-        <p>Ár: 7000 Ft</p>
+        <p>Gél lakk eltávolítás + manikür - 4000 Ft</p>
+        <p>Gél lakk végleges eltávolítás - 3500 Ft</p>
         <p>Szolgáltatás várható időtartama: 45 perc</p>
         <p>Szolgáltatás tartalma: Gépi manikűr, Géllakk eltávolítás.</p>
         <p>
