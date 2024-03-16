@@ -5,41 +5,27 @@ import {
   faArrowCircleRight,
   faTimesCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import "./gallery.css";
+import "./store.css";
 
-import pic001 from "./Images/V001.jpg";
-import pic002 from "./Images/V002.jpg";
-import pic003 from "./Images/V003.jpg";
-import pic004 from "./Images/V004.jpg";
-import pic005 from "./Images/V005.jpg";
-import pic006 from "./Images/V006.jpg";
-import pic007 from "./Images/V007.jpg";
-import pic008 from "./Images/V008.jpg";
-import pic009 from "./Images/V009.jpg";
-import pic010 from "./Images/V010.jpg";
+import pic001 from "./images/S001.jpg";
+import pic002 from "./images/S002.jpg";
+import pic003 from "./images/S003.jpg";
+import pic004 from "./images/S004.jpg";
+import pic005 from "./images/S005.jpg";
+import pic006 from "./images/S006.jpg";
+import pic007 from "./images/S007.jpg";
+import pic008 from "./images/S008.jpg";
+import pic009 from "./images/S009.jpg";
+import pic010 from "./images/S010.jpg";
+import pic011 from "./images/S011.jpg";
+import pic012 from "./images/S012.jpg";
+import pic013 from "./images/S013.jpg";
+import pic014 from "./images/S014.jpg";
+import pic015 from "./images/S015.jpg";
+import pic016 from "./images/S016.jpg";
+import pic017 from "./images/S017.jpg";
 
-import pic012 from "./Images/V012.jpg";
-import pic013 from "./Images/V013.jpg";
-import pic014 from "./Images/V014.jpg";
-import pic015 from "./Images/V015.jpg";
-import pic016 from "./Images/V016.jpg";
-import pic017 from "./Images/V017.jpg";
-import pic018 from "./Images/V018.jpg";
-import pic019 from "./Images/V019.jpg";
-import pic021 from "./Images/V021.jpg";
-import pic022 from "./Images/V022.jpg";
-import pic023 from "./Images/V023.jpg";
-import pic024 from "./Images/V024.jpg";
-import pic025 from "./Images/V025.jpg";
-import pic026 from "./Images/V026.jpg";
-import pic027 from "./Images/V027.jpg";
-import pic028 from "./Images/V028.jpg";
-import pic029 from "./Images/V029.jpg";
-import pic030 from "./Images/V030.jpg";
-import pic031 from "./Images/V031.jpg";
-import pic020 from "./Images/V020.jpg";
-
-const Gallery = () => {
+const Store = () => {
   const [modalImageIndex, setModalImageIndex] = useState(null);
   const images = [
     pic001,
@@ -52,28 +38,13 @@ const Gallery = () => {
     pic008,
     pic009,
     pic010,
-
+    pic011,
     pic012,
     pic013,
     pic014,
     pic015,
     pic016,
     pic017,
-    pic018,
-
-    pic022,
-    pic023,
-    pic024,
-    pic025,
-    pic026,
-    pic027,
-    pic028,
-    pic029,
-    pic030,
-    pic031,
-    pic020,
-    pic019,
-    pic021,
   ];
 
   const openModal = (index) => {
@@ -98,7 +69,7 @@ const Gallery = () => {
 
   return (
     <div>
-      <h1 className="gallery_name">Galéria</h1>
+      <h1 className="gallery_name">Lakk Szépségszalon</h1>
       <div className="gallery">
         {images.map((image, index) => (
           <img
@@ -129,4 +100,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Store;

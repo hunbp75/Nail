@@ -30,6 +30,7 @@ const NavBar = () => {
             Kezdőlap
           </NavLink>
           <NavLink to="/About">Rólunk</NavLink>
+          <NavLink to="/Store">A Szalon</NavLink>
           <NavLink to="/Product">Szolgáltatások / Árak</NavLink>
           <NavLink to="/Gallery">Galéria</NavLink>
           <NavLink to="/ContactUs">Elérhetőségek</NavLink>
