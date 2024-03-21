@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import "./home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import Image0 from "../Pictures/Main-bg.jpg";
+import Image0 from "../Pictures/S003.jpg";
 import Image1 from "../Gallery/Images/V028.jpg";
 import Image2 from "../Gallery/Images/V002.jpg";
 import Manicure from "../Product/Manicure";
